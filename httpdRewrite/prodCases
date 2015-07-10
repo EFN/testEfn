@@ -1,0 +1,70 @@
+302 http://efn.no https://efn.no/
+302 http://efn.no/omefn.html https://efn.no/omefn.html
+307 http://efn.no/styre.html http://old.efn.no/styre.html
+302 http://efn.no/no/om-efn https://efn.no/no/om-efn
+302 http://efn.no/admin https://efn.no/admin
+307 http://efn.no/pdf http://old.efn.no/pdf
+307 http://efn.no/pdf/ http://old.efn.no/pdf/
+307 http://efn.no/kodemus http://old.efn.no/kodemus
+307 http://efn.no/kodemus/ http://old.efn.no/kodemus/
+ 	
+200 https://efn.no
+301 https://efn.no/omefn.html /no/om-efn
+404 https://efn.no/styre.html
+200 https://efn.no/no/om-efn
+302 https://efn.no/admin https://admin.efn.no
+404 https://efn.no/pdf
+404 https://efn.no/pdf/
+404 https://efn.no/kodemus
+404 https://efn.no/kodemus/
+
+301 http://www.efn.no http://efn.no/
+301 http://www.efn.no/omefn.html http://efn.no/omefn.html
+301 http://www.efn.no/styre.html http://efn.no/styre.html
+301 http://www.efn.no/no/om-efn http://efn.no/no/om-efn
+301 http://www.efn.no/admin http://efn.no/admin
+301 http://www.efn.no/pdf http://efn.no/pdf
+301 http://www.efn.no/pdf/ http://efn.no/pdf/
+301 http://www.efn.no/kodemus http://efn.no/kodemus
+301 http://www.efn.no/kodemus/ http://efn.no/kodemus/
+
+301 https://www.efn.no https://efn.no/
+301 https://www.efn.no/omefn.html https://efn.no/omefn.html
+301 https://www.efn.no/styre.html https://efn.no/styre.html
+301 https://www.efn.no/no/om-efn https://efn.no/no/om-efn
+301 https://www.efn.no/admin https://efn.no/admin
+301 https://www.efn.no/pdf https://efn.no/pdf
+301 https://www.efn.no/pdf/ https://efn.no/pdf/
+301 https://www.efn.no/kodemus https://efn.no/kodemus
+301 https://www.efn.no/kodemus/ https://efn.no/kodemus/
+ 	
+301 http://old.efn.no https://old.efn.no/
+301 http://old.efn.no/omefn.html https://old.efn.no/omefn.html
+301 http://old.efn.no/styre.html https://old.efn.no/styre.html
+301 http://old.efn.no/no/om-efn https://old.efn.no/no/om-efn
+301 http://old.efn.no/admin https://old.efn.no/admin
+301 http://old.efn.no/pdf https://old.efn.no/pdf
+301 http://old.efn.no/pdf/ https://old.efn.no/pdf/
+301 http://old.efn.no/kodemus https://old.efn.no/kodemus
+301 http://old.efn.no/kodemus/ https://old.efn.no/kodemus/
+
+200 https://old.efn.no
+200 https://old.efn.no/omefn.html
+200 https://old.efn.no/styre.html
+404 https://old.efn.no/no/om-efn
+404 https://old.efn.no/admin
+301 https://old.efn.no/pdf https://old.efn.no/pdf/
+200 https://old.efn.no/pdf/
+301 https://old.efn.no/kodemus https://old.efn.no/kodemus/
+200 https://old.efn.no/kodemus/
+
+301 http://admin.efn.no https://admin.efn.no/
+301 http://admin.efn.no/ https://admin.efn.no/
+302 https://admin.efn.no https://admin.efn.no/login
+302 https://admin.efn.no/ https://admin.efn.no/login
+
+302 http://analytics.efn.no https://analytics.efn.no/
+302 http://analytics.efn.no/ https://analytics.efn.no/
+
+200 https://analytics.efn.no
+200 https://analytics.efn.no/
