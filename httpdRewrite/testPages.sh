@@ -20,6 +20,8 @@ shift ${nopts}
 
 shopt -s extglob
 
+tot_time=0
+
 while [ -n "$1" ]
 do
   while read line
@@ -35,7 +37,9 @@ do
     URL=$(echo $line | cut -d\  -f2)
     EXPECTED_CODE=$(echo $line | cut -d\  -f1)
     EXPECTED_RESULT=$(echo $line | cut -d\  -f3)
+    run_start=$(date +%s.%N)
     RES=$(curl -k -D - -s -o /dev/null -c test_jar "$URL")
+    run_end=$(date +%s.%N)
     CODE=$(echo "$RES" | head -n 1 | cut -d\  -f2)
     case $CODE in
     200|404|405)
@@ -55,9 +59,13 @@ do
       echo "$RES"
       ${abort} && exit 1
     fi
+    run_time=$(echo $run_end - $run_start | bc)
+    tot_time=$(echo $tot_time + $run_time | bc)
+    echo Run time: ${run_time}s
     let nCases++
   done < "$1"
   shift
 done
 
+echo Total runtime: ${tot_time}s
 echo ${nSuccess} successes out of ${nCases} cases
