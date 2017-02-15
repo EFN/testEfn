@@ -1,7 +1,7 @@
-302 http://efn.no https://efn.no/
-302 http://efn.no/omefn.html https://efn.no/omefn.html
+307 http://efn.no https://efn.no/
+307 http://efn.no/omefn.html https://efn.no/omefn.html
 307 http://efn.no/styre.html http://old.efn.no/styre.html
-302 http://efn.no/no/om-efn https://efn.no/no/om-efn
+307 http://efn.no/no/om-efn https://efn.no/no/om-efn
 302 http://efn.no/admin https://efn.no/admin
 307 http://efn.no/pdf http://old.efn.no/pdf
 307 http://efn.no/pdf/ http://old.efn.no/pdf/
@@ -55,6 +55,10 @@
 404 https://old.efn.no/admin
 301 https://old.efn.no/pdf https://old.efn.no/pdf/
 200 https://old.efn.no/pdf/
+301 https://old.efn.no/rmz https://old.efn.no/rmz/
+200 https://old.efn.no/rmz/
+301 https://old.efn.no/video https://old.efn.no/video/
+200 https://old.efn.no/video/
 301 https://old.efn.no/kodemus https://old.efn.no/kodemus/
 200 https://old.efn.no/kodemus/
 
@@ -68,3 +72,8 @@
 
 200 https://analytics.efn.no
 200 https://analytics.efn.no/
+
+# The most used links on our site:
+307 http://efn.no/jonjohansen-en.html http://old.efn.no/jonjohansen-en.html
+301 http://www.efn.no/html-bad.html http://efn.no/html-bad.html
+307 http://efn.no/html-bad.html http://old.efn.no/html-bad.html
